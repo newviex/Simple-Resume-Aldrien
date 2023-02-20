@@ -91,6 +91,12 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
   }
+  .home-section{
+    text-align: center;
+  }
+  .objective-section{
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 600px) {
     body {
