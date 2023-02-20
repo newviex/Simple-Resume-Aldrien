@@ -97,11 +97,18 @@ body {
     margin-right: 0;
     color: whitesmoke;
   }
+  .home-section{
+    text-align: center;
+  }
+  .objective-section{
+    text-align: center;
+  }
   img.img-icon {
     display: block;
     margin: 0 auto;
     width: 200px;
     height: 200px;
+    border-color: #fff;
   }
   .skills-table td:first-child {
     width: auto;
@@ -110,8 +117,9 @@ body {
   .experience-table th:first-child {
     width: auto;
   }
-
-
+hr{
+  border-color: white;
+}
   table {
     font-size: 14px;
   }
