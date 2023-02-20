@@ -6,7 +6,7 @@ body {
     margin-bottom: 0;
     margin-top: 0;
     padding: 0; 
-    background-color: antiquewhite;
+    background-color: rgb(248, 234, 216);
 }
 img.img-icon {
   width: 150px;
@@ -24,10 +24,14 @@ img.img-icon {
   background-image: url('/images/pexels-karina-zhukovskaya-6446708.jpg');
   background-repeat: no-repeat;
 }
+.home-section p{
+  margin: 0;
+  padding: 2px;
+}
 hr {
   border: none;
   border-top: 5px double #503a36;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 
 /* Objectives section */
@@ -91,12 +95,13 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
   }
-  .home-section{
+    .home-section{
     text-align: center;
   }
   .objective-section{
     text-align: center;
   }
+
 }
 @media only screen and (max-width: 600px) {
     body {
@@ -116,6 +121,7 @@ body {
     height: 200px;
     border-color: #fff;
   }
+  
   .skills-table td:first-child {
     width: auto;
   }
