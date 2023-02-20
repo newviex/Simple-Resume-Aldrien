@@ -11,8 +11,9 @@ body {
 img.img-icon {
   width: 150px;
   height: 150px;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 50%;
+  border: 5px solid black;
 }
 .img-sidebar {
   position: absolute;
@@ -97,8 +98,10 @@ body {
     color: whitesmoke;
   }
   img.img-icon {
-    width: 100px;
-    height: 100px;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
   }
   .skills-table td:first-child {
     width: auto;
