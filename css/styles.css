@@ -25,7 +25,7 @@ img.img-icon {
 }
 hr {
   border: none;
-  border-top: 2px solid #ccc;
+  border-top: 5px double #503a36;
   margin: 20px 0;
 }
 
@@ -57,6 +57,21 @@ hr {
     margin-top: 0;
     margin-left: 220px;
 }
+.video-section{
+  text-align: center; 
+  margin-top: 30px; 
+  margin-bottom: 40px;
+}
+footer{
+  background-color: #333;
+   color: #fff; 
+   padding: 1px; 
+   text-align: center;
+}
+footer p{
+  font-size: 20px;
+}
+
 
 /* Media queries for responsiveness */
 @media only screen and (max-width: 767px) {
